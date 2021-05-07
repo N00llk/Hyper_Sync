@@ -1,6 +1,8 @@
 #pragma once
 
 #include <QHash>
+#include <QVector>
+#include <QByteArray>
 
 
 class HashStorage
