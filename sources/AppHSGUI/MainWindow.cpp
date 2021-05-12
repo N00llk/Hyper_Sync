@@ -20,11 +20,11 @@ MainWindow::~MainWindow()
 
 void MainWindow::clickedPushButtonGood()
 {
-    QFileDialog::getOpenFileName();
+    QFileDialog::getExistingDirectory();
 }
 
 void MainWindow::clickedPushButtonBad()
 {
-    QFileDialog::getOpenFileName();
+    QFileDialog::getExistingDirectory();
 }
 

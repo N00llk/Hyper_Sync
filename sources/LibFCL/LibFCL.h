@@ -14,6 +14,8 @@
 #include <QString>
 #include <QByteArray>
 
+#include "HashStorage.h"
+
 class LibFCL
 {
 public:
@@ -23,6 +25,8 @@ public:
 private:
     bool compareBlocks(char* block1, char* block2);
     void clearBlocks(void);
+
+    HashStorage _hashStorage;
 
     QString firstFile;
     QString secondFile;
